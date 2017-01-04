@@ -76,10 +76,8 @@ class Cart {
             for(let i = 0; i < featureArrayCart.length; i++){
                 // console.log('featuresInCart'+ i + ' :::  ' + arrayInCart[i]);
                 // console.log('featureArrayCart'+ i + ' :::  ' + featureArrayCart[i]);
+                // expect(arrayInCart[i]).toContain(featureArrayCart[i]);
                 expect(arrayInCart[i]).toContain(featureArrayCart[i]);
-                expect(true).toBe(true);
-                expect(true).toBe(true);
-                expect(true).toBe(true);
             }
         });
 
