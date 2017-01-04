@@ -43,6 +43,7 @@ class Cart {
         });
     }
 
+    //verify cart methods
     verifyBundleNameAndCharges(bundleName, price) {
         expect(this.cartBundleRow.isDisplayed()).toBe(true, 'because bundle should be present');
         this.cartBundleRow.element(by.tagName('h4')).getText().then((bundleText) => {
