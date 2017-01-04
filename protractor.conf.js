@@ -31,6 +31,14 @@
                     deviceName: 'Samsung Galaxy Note 3'
                 }
             }
+        },
+
+        safari: {
+            name: 'Safari',
+            browserName: 'safari',
+            logName: 'Safari',
+            shardTestFiles: true,
+            maxInstances: 2
         }
     };
 
